@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'haml'
 require 'datamapper'
+require 'pg'
+require 'do_postgres'
 
 class Item
   include DataMapper::Resource
