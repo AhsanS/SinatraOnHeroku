@@ -13,7 +13,8 @@ configure do
   DataMapper.finalize
   DataMapper.auto_migrate!
 
-  Item.create(:text => "hi")
+  Item.create(:text => "Hi")
+  Item.create(:text => "there!")
 end
 
 get '/' do
