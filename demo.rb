@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'haml'
-require 'datamapper'
+require 'data_mapper'
 require 'pg'
 require 'do_postgres'
 
